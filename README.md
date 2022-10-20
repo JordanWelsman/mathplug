@@ -23,7 +23,7 @@
 ### Install & use
 
 1. From terminal:
-`pip install mathplug`
+`shell pip install mathplug`
 2. From python environment:
 `import mathplug`
 
@@ -53,8 +53,10 @@
 - Package published to `PyPI`
 
 ## Credits
+
 `mathplug` was created, developed, and is currently maintained by by `Jordan Welsman`.
 
 ## License
+
 `mathplug` is developed and distributed under the `MIT` license.
 >See `LICENSE.md` for more details.
