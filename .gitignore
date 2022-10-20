@@ -1,0 +1,4 @@
+build
+dist
+mathplug/__pycache__
+mathplug/mathplug.egg-info
