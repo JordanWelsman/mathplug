@@ -19,3 +19,42 @@
 ## Overview
 
  `mathplug` is a lightweight Python package which supplies simple math functions. It was primarily designed as an excuse to learn how to publish a Python package. Secondarily, this will give me an opportunity to learn some of the more complicated mathematical equations since I somehow skipped that part. In the future, you'll be able to `install` and `import` this software into your notebook or Python file and use it to add some numbers together. _How exciting!_
+
+### Install & use
+
+1. From terminal:
+`pip install mathplug`
+2. From python environment:
+`import mathplug`
+
+## Table of contents
+
+- [mathplug](#mathplug)
+  - [Overview](#overview)
+    - [Install & use](#install--use)
+  - [Table of contents](#table-of-contents)
+  - [Objectives](#objectives)
+  - [History](#history)
+    - [0.0.1](#001)
+  - [Credits](#credits)
+  - [License](#license)
+
+## Objectives
+
+- Learn how to publish a Python package
+- Learn some more complicated math functions
+
+## History
+
+### 0.0.1
+
+- Simple math functions defined
+- Package files created
+- Package published to `PyPI`
+
+## Credits
+`mathplug` was created, developed, and is currently maintained by by `Jordan Welsman`.
+
+## License
+`mathplug` is developed and distributed under the `MIT` license.
+>See `LICENSE.md` for more details.
