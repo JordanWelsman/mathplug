@@ -7,5 +7,3 @@ def add(*arg):
     for n in arg:
         total += n
     return total
-
-print(add(1, 2))

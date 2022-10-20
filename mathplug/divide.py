@@ -9,5 +9,3 @@ def divide(*arg):
     else:
         result = numerators[0] / denominator # divide numerator by denominator, write to result
     return result
-
-print(divide(7, 49, 70, 203))

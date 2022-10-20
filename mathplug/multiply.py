@@ -4,5 +4,3 @@ def multiply(*arg):
     for n in arg:
         product *= n
     return product
-
-print(multiply(20, 45, 12))

@@ -4,5 +4,3 @@ def subtract(*arg):
     for n in arg:
         subtractor += n
     return (arg[0] - (subtractor-arg[0]))
-
-print(subtract(10, 1, 2, 3))
