@@ -1,6 +1,3 @@
-from tokenize import Number
-
-
 def add(*arg):
     """Returns sum of numbers passed in."""
     total = 0
