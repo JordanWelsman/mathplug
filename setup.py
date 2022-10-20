@@ -15,4 +15,9 @@ setup(
     py_modules = ["__init__", "add", "divide", "hello_world", "multiply", "subtract"],
     classifiers = ["Development Status :: 2 - Pre-Alpha", "Intended Audience :: Other Audience", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent", "Programming Language :: Python :: 3.9", "Topic :: Scientific/Engineering :: Mathematics"],
     package_dir = {'': 'mathplug'}
+    extras_require = {
+        "dev": [
+            "pytest >= 7.1"
+        ]
+    }
 )
