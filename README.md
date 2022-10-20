@@ -29,12 +29,12 @@
 
 1. Clone repository:
 `git clone https://github.com/JordanWelsman/mathplug.git`
-2. cd to source directory:
-`cd mathplug/mathplug`
-3. Build module:
+2. Build module:
 `<python | python3> setup.py bdist_wheel`
-4. Install module locally:
+3. Install module locally:
 `pip install -e . dev`
+4. cd to source directory:
+`cd mathplug/mathplug`
 5. Run tests with `PyTest`:
 `pytest`
 
