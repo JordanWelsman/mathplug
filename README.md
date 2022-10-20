@@ -34,7 +34,7 @@
 3. Build module:
 `<python | python3> setup.py bdist_wheel`
 4. Install module locally:
-`pip install -e .`
+`pip install -e . dev`
 5. Run tests with `PyTest`:
 `pytest`
 
