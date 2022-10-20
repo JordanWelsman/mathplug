@@ -1,5 +1,3 @@
-# mathplug
-
 ```ascii
  __   __  _______  _______  __   __  _______  ___      __   __  _______ 
 |  |_|  ||   _   ||       ||  | |  ||       ||   |    |  | |  ||       |
@@ -16,47 +14,60 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/JordanWelsman/mathplug)
 ![GitHub followers](https://img.shields.io/github/followers/JordanWelsman?style=social)
 
-## Overview
+# Overview
 
  `mathplug` is a lightweight Python package which supplies simple math functions. It was primarily designed as an excuse to learn how to publish a Python package. Secondarily, this will give me an opportunity to learn some of the more complicated mathematical equations since I somehow skipped that part. In the future, you'll be able to `install` and `import` this software into your notebook or Python file and use it to add some numbers together. _How exciting!_
 
-### Install & use
+## Install & use
 
 1. From terminal:
 `shell pip install mathplug`
 2. From python environment:
 `import mathplug`
 
-## Table of contents
+## Test
 
-- [mathplug](#mathplug)
-  - [Overview](#overview)
-    - [Install & use](#install--use)
-  - [Table of contents](#table-of-contents)
-  - [Objectives](#objectives)
-  - [History](#history)
-    - [0.0.1](#001)
-  - [Credits](#credits)
-  - [License](#license)
+1. Clone repository:
+`git clone https://github.com/JordanWelsman/mathplug.git`
+2. cd to source directory:
+`cd mathplug/mathplug`
+3. Build module:
+`<python | python3> setup.py bdist_wheel`
+4. Install module locally:
+`pip install -e .`
+5. Run tests with `PyTest`:
+`pytest`
 
-## Objectives
+# Table of contents
+
+- [Overview](#overview)
+  - [Install & use](#install--use)
+  - [Test](#test)
+- [Table of contents](#table-of-contents)
+- [Objectives](#objectives)
+- [History](#history)
+  - [0.0.1](#001)
+- [Credits](#credits)
+- [License](#license)
+
+# Objectives
 
 - Learn how to publish a Python package
 - Learn some more complicated math functions
 
-## History
+# History
 
-### 0.0.1
+## 0.0.1
 
 - Simple math functions defined
 - Package files created
 - Package published to `PyPI`
 
-## Credits
+# Credits
 
-`mathplug` was created, developed, and is currently maintained by by `Jordan Welsman`.
+`mathplug` was created, developed, and is currently maintained by **Jordan Welsman**.
 
-## License
+# License
 
 `mathplug` is developed and distributed under the `MIT` license.
 >See `LICENSE.md` for more details.
