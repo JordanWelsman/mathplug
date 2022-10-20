@@ -61,6 +61,7 @@
 
 - Simple math functions defined
 - Package files created
+- Created test files & tested with `pytest`
 - Package published to `PyPI`
 
 # Credits
