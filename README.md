@@ -33,9 +33,7 @@
 `<python | python3> setup.py bdist_wheel`
 3. Install module locally:
 `pip install -e . dev`
-4. cd to source directory:
-`cd mathplug/mathplug`
-5. Run tests with `PyTest`:
+4. Run tests with `PyTest`:
 `pytest`
 
 # Table of contents
