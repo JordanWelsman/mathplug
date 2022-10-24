@@ -1,11 +1,19 @@
+# Module imports
+import sys
 from setuptools import setup
+
+# Arguments
+args = sys.argv
+num_args = len(args)
+program_name = args[0]
+version = "0.0.1"
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
     name = 'mathplug',
-    version = '0.0.1',
+    version = version,
     description = 'A lightweight Python package which supplies simple math functions.',
     long_description = long_description,
     long_description_content_type = 'text/markdown',
