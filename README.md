@@ -30,7 +30,7 @@
 - [Objectives](#objectives)
 - [History](#history)
   - [`0.0.1`](#001)
-  - [`0.0.2` (Planned)](#002-planned)
+  - [`0.0.2`](#002)
 - [Credits](#credits)
 - [License](#license)
 
@@ -70,11 +70,21 @@
 ## `0.0.1`
 
 - Simple math functions defined
+  - `add()`, `divide()`, `hello_world()`, `multiply`, `square_root()`, `square()`, and `subtract()`
 - Package files created
+  - `setup.py` and `LICENSE.md`
 - Created test files & tested with `pytest`
+  - `test_add.py`, `test_divide.py`, `test_hello_world.py`, `test_multiply.py`, `test_square_root.py`, `test_square.py`, and `test_subtract.py`
+- Package published to `PyPI`
+  - [PyPI Project Link](https://pypi.org/project/mathplug/)
 
-## `0.0.2` (Planned)
-- _Package published to `PyPI`_
+## `0.0.2`
+
+- Aggregated all functions into one file
+  - Functions should be optionally imported with `import mathplug`, not strictly `from mathplug import function`
+  - Functions should be accessed with `mathplug.function()`, not `mathplug.file.function`
+- Agregated all test files into one file containing all tests
+  - Done for ease of use and to clean up file tree
 
 # Credits
 
