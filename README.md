@@ -20,7 +20,21 @@
 
  `mathplug` is a lightweight Python package which supplies simple math functions. It was primarily designed as an excuse to learn how to publish a Python package. Secondarily, this will give me an opportunity to learn some of the more complicated mathematical equations since I somehow skipped that part. In the future, you'll be able to `install` and `import` this software into your notebook or Python file and use it to add some numbers together. _How exciting!_
 
-## Install & use
+# Table of contents
+
+- [Overview](#overview)
+- [Table of contents](#table-of-contents)
+- [Install & use](#install--use)
+  - [Test](#test)
+  - [Build](#build)
+- [Objectives](#objectives)
+- [History](#history)
+  - [`0.0.1`](#001)
+  - [`0.0.2` (Planned)](#002-planned)
+- [Credits](#credits)
+- [License](#license)
+
+# Install & use
 
 1. From terminal:
 `shell pip install mathplug`
@@ -31,25 +45,20 @@
 
 1. Clone repository:
 `git clone https://github.com/JordanWelsman/mathplug.git`
-2. Build module:
-`<python | python3> setup.py bdist_wheel`
+2. Build module for testing:
+`python3 setup.py bdist_wheel`
 3. Install module locally:
 `pip install -e . dev`
 4. Run tests with `PyTest`:
 `pytest`
 
-# Table of contents
+## Build
 
-- [Overview](#overview)
-  - [Install & use](#install--use)
-  - [Test](#test)
-- [Table of contents](#table-of-contents)
-- [Objectives](#objectives)
-- [History](#history)
-  - [`0.0.1`](#001)
-  - [`0.0.2` (Planned)](#002-planned)
-- [Credits](#credits)
-- [License](#license)
+1. Build module for distribution:
+`python3 setup.py bdist_wheel sdist`
+2. Push to `PyPI`:
+`pip install twine`
+`twine upload dist/*`
 
 # Objectives
 
