@@ -27,9 +27,10 @@
   - [Build](#build)
 - [Objectives](#objectives)
 - [History](#history)
+  - [`0.0.0` (10.21.2022)](#000-10212022)
   - [`0.0.1` (10.25.2022)](#001-10252022)
   - [`0.0.2` (10.25.2022)](#002-10252022)
-  - [`0.0.3` (TBC)](#003-tbc)
+  - [`0.0.3` (10.26.2020)](#003-10262020)
   - [`0.1.0` (Planned)](#010-planned)
 - [Credits](#credits)
 - [License](#license)
@@ -68,6 +69,12 @@
 
 # History
 
+## `0.0.0` (10.21.2022)
+
+- GitHub repositiry created
+- Project created
+  - Basic `README.md` written
+
 ## `0.0.1` (10.25.2022)
 
 - Simple math functions defined
@@ -88,11 +95,12 @@
   - Done for ease of use and to clean up file tree
 - Incremented version number
 
-## `0.0.3` (TBC)
+## `0.0.3` (10.26.2020)
 
 - More math functions defined
-  - `absolute()`, `cube`, and `exponent()`
-- Created tests for all new functions
+  - `absolute()`, `cube()`, and `exponent()`
+- Created tests for new functions & tested with `PyTest`
+  - `absolute()`, `cube()`mand `exponent()`
 - Incremented version number
 
 ## `0.1.0` (Planned)
@@ -115,3 +123,4 @@
 :cat: [Follow me on GitHub](https://github.com/JordanWelsman/)
 :briefcase: [Connect with me on Linkedin](https://linkedin.com/in/JordanWelsman/)
 :email: [Send me an email](mailto:jordan.welsman@outlook.com)
+:clapper: [Followed tutorial](https://www.youtube.com/watch?v=GIF3LaRqgXo/) by [Mark Smith (@judy2k)](https://twitter.com/judy2k/)
