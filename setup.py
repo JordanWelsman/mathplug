@@ -31,7 +31,7 @@ assert sys.version_info.major >= 3, f"{color.LIGHTRED}Python version must be 3 o
 args = sys.argv
 num_args = len(args)
 program_name = args[0]
-version = "0.0.1"
+version = "0.0.3"
 run_pytest_after_setup = False
 
 def run_program():
@@ -46,7 +46,7 @@ def run_program():
 
                 setup(
                     name = 'mathplug',
-                    version = '0.0.2',
+                    version = version,
                     description = 'A lightweight Python package which supplies simple math functions.',
                     long_description = long_description,
                     long_description_content_type = 'text/markdown',
