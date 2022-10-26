@@ -29,8 +29,10 @@
 - [History](#history)
   - [`0.0.1`](#001)
   - [`0.0.2`](#002)
+  - [`0.1.0` (Planned)](#010-planned)
 - [Credits](#credits)
 - [License](#license)
+- [Links](#links)
 
 # Install & use
 
@@ -85,6 +87,10 @@
   - Done for ease of use and to clean up file tree
 - Incremented version number
 
+## `0.1.0` (Planned)
+
+- _Stable release_
+
 # Credits
 
 `mathplug` was created, developed, and is currently maintained by **Jordan Welsman**.
@@ -93,3 +99,9 @@
 
 `mathplug` is developed and distributed under the `MIT` license.
 >See `LICENSE.md` for more details.
+
+# Links
+
+[See this project on GitHub](https://github.com/JordanWelsman/mathplug/)
+[Follow me on GitHub](https://github.com/JordanWelsman/)
+[Connect with me on Linkedin](https://linkedin.com/in/JordanWelsman/)
