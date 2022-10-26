@@ -27,8 +27,10 @@
   - [Build](#build)
 - [Objectives](#objectives)
 - [History](#history)
-  - [`0.0.1`](#001)
-  - [`0.0.2`](#002)
+  - [`0.0.0` (10.21.2022)](#000-10212022)
+  - [`0.0.1` (10.25.2022)](#001-10252022)
+  - [`0.0.2` (10.25.2022)](#002-10252022)
+  - [`0.0.3` (10.26.2020)](#003-10262020)
   - [`0.1.0` (Planned)](#010-planned)
 - [Credits](#credits)
 - [License](#license)
@@ -67,7 +69,13 @@
 
 # History
 
-## `0.0.1`
+## `0.0.0` (10.21.2022)
+
+- GitHub repositiry created
+- Project created
+  - Basic `README.md` written
+
+## `0.0.1` (10.25.2022)
 
 - Simple math functions defined
   - `add()`, `divide()`, `hello_world()`, `multiply`, `square_root()`, `square()`, and `subtract()`
@@ -78,7 +86,7 @@
 - Package published to `PyPI`
   - [PyPI Project Link](https://pypi.org/project/mathplug/)
 
-## `0.0.2`
+## `0.0.2` (10.25.2022)
 
 - Aggregated all functions into one file
   - Functions should be optionally imported with `import mathplug`, not strictly `from mathplug import function`
@@ -87,9 +95,18 @@
   - Done for ease of use and to clean up file tree
 - Incremented version number
 
+## `0.0.3` (10.26.2020)
+
+- More math functions defined
+  - `absolute()`, `cube()`, and `exponent()`
+- Created tests for new functions & tested with `PyTest`
+  - `absolute()`, `cube()`, and `exponent()`
+- Incremented version number
+
 ## `0.1.0` (Planned)
 
 - _Stable release_
+- _Improve Python accessability_
 
 # Credits
 
@@ -102,6 +119,14 @@
 
 # Links
 
-[See this project on GitHub](https://github.com/JordanWelsman/mathplug/)
-[Follow me on GitHub](https://github.com/JordanWelsman/)
-[Connect with me on Linkedin](https://linkedin.com/in/JordanWelsman/)
+:file_folder: [See this project on GitHub](https://github.com/JordanWelsman/mathplug/)
+
+:gift: [See this project on PyPI](https://pypi.org/project/mathplug/)
+
+:cat: [Follow me on GitHub](https://github.com/JordanWelsman/)
+
+:briefcase: [Connect with me on Linkedin](https://linkedin.com/in/JordanWelsman/)
+
+:email: [Send me an email](mailto:jordan.welsman@outlook.com)
+
+:clapper: [Followed tutorial](https://www.youtube.com/watch?v=GIF3LaRqgXo/) by [Mark Smith (@judy2k)](https://twitter.com/judy2k/)
