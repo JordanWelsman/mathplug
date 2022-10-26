@@ -106,6 +106,7 @@
 ## `0.1.0` (Planned)
 
 - _Stable release_
+- _Improve Python accessability_
 
 # Credits
 
@@ -119,8 +120,13 @@
 # Links
 
 :file_folder: [See this project on GitHub](https://github.com/JordanWelsman/mathplug/)
+
 :gift: [See this project on PyPI](https://pypi.org/project/mathplug/)
+
 :cat: [Follow me on GitHub](https://github.com/JordanWelsman/)
+
 :briefcase: [Connect with me on Linkedin](https://linkedin.com/in/JordanWelsman/)
+
 :email: [Send me an email](mailto:jordan.welsman@outlook.com)
+
 :clapper: [Followed tutorial](https://www.youtube.com/watch?v=GIF3LaRqgXo/) by [Mark Smith (@judy2k)](https://twitter.com/judy2k/)
