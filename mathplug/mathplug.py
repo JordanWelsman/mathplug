@@ -1,3 +1,13 @@
+# absolute
+def absolute(arg):
+    """Returns the absolute value of the argument."""
+    result = 0
+    if arg < 1:
+        result = (arg * -1)
+    else: result = arg
+    return result
+
+
 # addition
 def add(*arg):
     """Returns sum of numbers passed in."""
@@ -5,6 +15,12 @@ def add(*arg):
     for n in arg:
         total += n
     return total
+
+
+# cube
+def cube(arg):
+    """Returns the argument multiplied by itself, multiplied by itself again."""
+    return arg * arg * arg
 
 
 # division
@@ -18,6 +34,21 @@ def divide(*arg):
             result.append(n / denominator) # divide by denominator, append to result
     else:
         result = numerators[0] / denominator # divide numerator by denominator, write to result
+    return result
+
+
+# exponent
+def exponent(number, exponent):
+    """Returns the first argument raised to the second argument."""
+    result = number
+    if exponent == 0:
+        result = number
+    elif exponent >= 1:
+        for i in range(exponent - 1):
+            result *= number
+            print(result)
+    else:
+        raise AssertionError("Exponent is invalid.")
     return result
 
 
@@ -62,3 +93,8 @@ def subtract(*arg):
     for n in arg:
         subtractor += n
     return (arg[0] - (subtractor-arg[0]))
+
+
+# new function test
+# def test():
+    # assert exponent(1, 4) == 1

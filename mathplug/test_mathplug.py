@@ -1,5 +1,19 @@
-# import module
+# module import
 from mathplug import mathplug as t
+
+
+# absolute()
+def test_absolute():
+    assert t.absolute(45) == 45
+
+def test_absolute_zero():
+    assert t.absolute(0) == 0
+
+def test_absolute_negative():
+    assert t.absolute(-6) == 6
+
+def test_absolute_wrong():
+    assert t.absolute(20) != 10
 
 
 # add()
@@ -13,6 +27,17 @@ def test_add_wrong():
     assert t.add(30, 50) != 70
 
 
+# cube()
+def test_cube():
+    assert t.cube(5) == 125
+
+def test_cube_negative():
+    assert t.cube(-3) == -27
+
+def test_cube_wrong():
+    assert t.cube(7) != 21
+
+
 # divide()
 def test_divide():
     assert t.divide(10, 20) == 2
@@ -22,6 +47,20 @@ def test_divide_multiple():
 
 def test_divide_wrong():
     assert t.divide(30, 60) != 3
+
+
+# exponent()
+def test_exponent():
+    assert t.exponent(3, 2) == 9
+
+def test_exponent():
+    assert t.exponent(5, 0) == 5
+
+def test_exponent_negative():
+    assert t.exponent(-4, 3) == -64
+
+def test_exponent_wrong():
+    assert t.exponent(10, 3) != 30
 
 
 # hello_world()
