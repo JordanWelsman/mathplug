@@ -14,8 +14,6 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/JordanWelsman/mathplug)
 ![GitHub followers](https://img.shields.io/github/followers/JordanWelsman?style=social)
 
->:memo: **Note:** The PyPI shield will not work until a PyPI package is uploaded.
-
 # Overview
 
  `mathplug` is a lightweight Python package which supplies simple math functions. It was primarily designed as an excuse to learn how to publish a Python package. Secondarily, this will give me an opportunity to learn some of the more complicated mathematical equations since I somehow skipped that part. In the future, you'll be able to `install` and `import` this software into your notebook or Python file and use it to add some numbers together. _How exciting!_
@@ -85,6 +83,7 @@
   - Functions should be accessed with `mathplug.function()`, not `mathplug.file.function`
 - Agregated all test files into one file containing all tests
   - Done for ease of use and to clean up file tree
+- Incremented version number
 
 # Credits
 
