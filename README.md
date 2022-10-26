@@ -100,7 +100,7 @@
 - More math functions defined
   - `absolute()`, `cube()`, and `exponent()`
 - Created tests for new functions & tested with `PyTest`
-  - `absolute()`, `cube()`mand `exponent()`
+  - `absolute()`, `cube()`, and `exponent()`
 - Incremented version number
 
 ## `0.1.0` (Planned)
